@@ -122,9 +122,9 @@ public class Pacman extends PacmanActor {
             desiredDirection = 1;
         }
         // mod
-        else if (Keyboard.keyPressed[KeyEvent.VK_G] ){
-            game.startGhostVulnerableMode();
-        }
+        //else if (Keyboard.keyPressed[KeyEvent.VK_G] ){
+        //    game.startGhostVulnerableMode();
+        //}
         
         yield:
         while (true) {
